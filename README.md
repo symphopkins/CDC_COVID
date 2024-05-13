@@ -1,4 +1,4 @@
-# CDC Data ETL Pipeline
+# SARS-CoV-2 Variant Proportions ETL Pipeline
 
 This Python script is designed to extract, transform, and load (ETL) data from the CDC (Centers for Disease Control and Prevention) API into a PostgreSQL database. It retrieves data related to variant proportions from the CDC API, performs necessary data transformations, and then loads the processed data into a PostgreSQL table.
 
