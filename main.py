@@ -101,5 +101,5 @@ def load_data_to_postgresql(df, table_name, conn_string):
     except Exception as e:
         print("Error:", e)
 
-your_connection_string = "postgresql://postgres:978258@localhost:5432/cdc_covid"
+your_connection_string = "str"
 load_data_to_postgresql(df, 'variant_proportions', your_connection_string)
